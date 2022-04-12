@@ -1,0 +1,27 @@
+.footerBlock {
+    height: 50vh;
+    background-color: burlywood;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: antiquewhite;
+}
+
+.footer {
+    border: 1px solid;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 65px;
+    width: 65px;
+    background-color: #cb7676;
+}
