@@ -13,8 +13,8 @@ const Projects = (props: ProjectsPropsType) => {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <h2 className={style.title}>My Projects</h2>
                 <div className={style.projects}>
-                    <Project title={"Social network"} description={""}/>
-                    <Project title={"TodoList"} description={""}/>
+                    <Project title={"Social network"} description={"first project"}/>
+                    <Project title={"TodoList"} description={"second project"}/>
                 </div>
             </div>
         </div>
