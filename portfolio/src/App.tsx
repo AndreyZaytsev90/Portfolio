@@ -4,12 +4,16 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 
-function App() {
+type AppPropsType = {
+
+}
+
+function App(props: AppPropsType) {
     return (
         <div className="App">
             <Header/>
             <Main/>
-            <Skills/>
+            <Skills /*id={props.id}*//>
         </div>
     );
 }
