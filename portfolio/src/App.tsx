@@ -5,6 +5,7 @@ import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
+import Footer from "./footer/Footer";
 
 type AppPropsType = {
 
@@ -18,6 +19,7 @@ function App(props: AppPropsType) {
             <Skills /*id={props.id}*//>
             <Projects/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }

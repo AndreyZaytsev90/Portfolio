@@ -12,7 +12,9 @@ const Contacts = () => {
                     <form className={style.form} action="Contacts">
                         <input type="text"/>
                         <input type="text"/>
-                        <textarea className={style.textarea} name="Your text" id='1'></textarea>
+                        <div>
+                            <textarea className={style.textarea} cols={58} rows={2}></textarea>
+                        </div>
                     </form>
                     <button className={style.button}>Send</button>
                 </div>
