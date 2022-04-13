@@ -13,8 +13,8 @@ const Skills = (props: SkillsPropsType) => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>My skills</h2>
                 <div className={style.skills}>
-                    <Skill  title={"HTML/CSS"} description={"Semantic"}/>
-                    <Skill  title={"JavaScript/TypeScript"} description={""}/>
+                    <Skill  title={"HTML/CSS"} description={"Semantic HTML5 and CSS3"}/>
+                    <Skill  title={"JavaScript/TypeScript"} description={"ES6"}/>
                     <Skill  title={"React/Redux"} description={""}/>
                 </div>
             </div>
