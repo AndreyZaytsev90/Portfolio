@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 50vh;
+    min-height: 50px;
     background-color: burlywood;
 }
 
