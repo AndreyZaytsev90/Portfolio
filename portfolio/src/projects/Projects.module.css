@@ -1,17 +1,22 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #7bb791;
+    background-color: #1F1F20;
+    padding: 100px 0;
 
 }
 
 .projectsContainer {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 
 .title {
     background-color: antiquewhite;
+}
+
+.title h2 {
+    font-family: 'Mulish', sans-serif;
 }
 
 .projects{
