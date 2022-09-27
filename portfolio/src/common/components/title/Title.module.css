@@ -1,0 +1,28 @@
+.title {
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: transparent;
+    border: 0;
+    margin: 0 0 30px;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    /*position: absolute;*/
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    border-bottom: 1px dashed hsla(0,0%,100%,.15);
+    padding-bottom: 20px;
+}
+
+.title h2 {
+    margin: 0
+}
